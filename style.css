@@ -157,6 +157,8 @@ footer p {
     justify-content: space-between;
     padding: 20px;
     font-size: 24px;
+    flex-wrap: wrap;
+
   }
   header nav ul {
     margin-top: 40px;
