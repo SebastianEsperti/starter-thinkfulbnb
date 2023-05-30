@@ -156,10 +156,16 @@ footer p {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    font-size: 24px;
-    flex-wrap: wrap;
-
+    font-size: 18px;
+    /* flex-wrap: wrap; */
   }
+  .logo {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
   header nav ul {
     margin-top: 40px;
   }
@@ -171,18 +177,24 @@ footer p {
     display: flex;
     flex-direction: row;
     flex: 1;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 12px;
     align-items: center;
     
   }
   form > div {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
+    max-width: 20%;
     
+  }
+  #stay button {
+    font-size: 10px;
+    max-width: 100%;
   }
 
   form label {
@@ -191,8 +203,7 @@ footer p {
   
   form select,
   form input {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 75%;
   }
   /* About*/
   #about {
@@ -255,3 +266,4 @@ footer p {
     max-width: 50%;
   }
 }
+
